@@ -46,8 +46,8 @@ function createDialog() {
         	
 function dialogDismissed(buttonIndex) {
 	
-	if(buttonIndex==1) createMessage({content: 'eatsomething', duration: 3000});
-   	else if(buttonIndex==2) createMessage({content: 'Get back to work !', duration: 3000});
+	if(buttonIndex==1) createMessage({'eatsomething', 3000});
+   	else if(buttonIndex==2) createMessage({ 'Get back to work !',3000});
 
 }
 
